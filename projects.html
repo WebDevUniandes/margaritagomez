@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="These are Margarita's projects.">
+    <meta name="author" content="Margarita María Gómez Ballén">
+
+    <title>Margarita Gómez</title>
+
+    <!--Icon-->
+    <link rel="icon" type="image/jpg" href="img/deisi2.ico">
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Custom CSS -->
+    <link href="css/sb-admin.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Gafata" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Imprima" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <div id="wrapper">
+
+        <!-- Navigation -->
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation" id="holaa">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html"> </a>
+            </div>
+            <!-- Sidebar Menu Items - These collapse to the responsive navigation menu on small screens -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav side-nav">
+                    <li class="ho">
+                        <a href="index.html"><i class="fa fa-fw fa-home"></i> Home</a>
+                    </li>
+                    <li class="ho">
+                        <a href="resume.html"><i class="fa fa-fw fa-graduation-cap "></i> Resume</a>
+                    </li>
+                    <li class="active ho">
+                        <a href="projects.html"><i class="fa fa-fw fa-code-fork"></i> Projects</a>
+                    </li>
+                    <li class="ho">
+                        <a href="faq.html"><i class="fa fa-fw fa-question"></i> FAQ</a>
+                    </li>
+                    <li class="ho">
+                        <a href="contact.html"><i class="fa fa-fw fa-pencil"></i> Contact me</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </nav>
+
+        <div id="page-wrapper">
+
+            <div class="container-fluid">
+
+                <!-- Page Heading -->
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h1 class="page-header animated fadeInDownBig">
+                            Projects
+                        </h1>
+                    </div>
+                </div>
+                <!-- /.row -->
+
+                <div class="row">
+                    <div class="col-lg-6">
+                        <h2 class="animated fadeInLeft"><i class="fa fa-tint pink" aria-hidden="true"></i> OilCol App</h2>
+                        <div class="project animated fadeInRight">
+                            <div class="well">
+                                <div class="row">
+                                    <div class="col-lg-1"></div>
+                                    <div class="thumbnail col-lg-10">
+                                        <img class="project-img" src="img/oilcol.PNG" alt="Dashboard of OilCol web app">
+                                    </div>
+                                </div>
+                                <!--/.row-->
+                                <h4 class="project-description-title">Description</h4>
+                                <p class="project-description">Mock web application that imitates an oil-extracting company in order to keep updates of their wells, each equipped with sensors that constantly send information. <br> Team size: <i class="fa fa-child" aria-hidden="true"></i><i
+                                        class="fa fa-child" aria-hidden="true"></i><i class="fa fa-child" aria-hidden="true"></i><i class="fa fa-child" aria-hidden="true"></i></p>
+                                <a href="https://github.com/Arquisuave/oilcol-app-play" target="_blank">
+                                    <button type="button repository" class="btn btn-default btn-md ">
+                                  <i class="fa fa-github " aria-hidden="true"></i> Repository
+                              </button>
+                                </a>
+                            </div>
+                            <!--/.well-->
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h3 class="panel-title">Technologies</h3>
+                                </div>
+                                <div class="panel-body">
+                                    <button type="button" id="btnjava" class="btn btn-default btn-tech" data-toggle="tooltip" data-placement="bottom" title="Java EE">
+                                      <img class="java-icon" src="img/java-icon.png" alt="java icon">
+                                    </button>
+                                    <button type="button" id="btnpostgresql" class="btn btn-default btn-tech" data-toggle="tooltip" data-placement="bottom" title="PostgreSQL">
+                                      <img class="postgresql-icon" src="img/postgresql-icon.png" alt="postgresql icon">
+                                    </button>
+                                    <button type="button" id="btnmongo" class="btn btn-default btn-tech" data-toggle="tooltip" data-placement="bottom" title="MongoDB">
+                                      <img class="mongo-icon" src="img/mongo-icon.png" alt="Mongo DB icon">
+                                    </button>
+                                    <button type="button" id="btnplay" class="btn btn-default btn-tech" data-toggle="tooltip" data-placement="bottom" title="Play Framework">
+                                      <img class="play-icon" src="img/play-icon.png" alt="play icon">
+                                    </button>
+                                    <button type="button" id="btnarduino" class="btn btn-default btn-tech" data-toggle="tooltip" data-placement="bottom" title="Arduino">
+                                      <img class="arduino-icon" src="img/arduino-icon.png" alt="arduino icon">
+                                    </button>
+                                    <button type="button" id="btnnodered" class="btn btn-default btn-tech" data-toggle="tooltip" data-placement="bottom" title="Node-RED">
+                                      <img class="node-red-icon" src="img/node-red-icon.png" alt="node-red icon">
+                                    </button>
+                                    <button type="button" class="btn btn-default btn-tech btn-icon" data-toggle="tooltip" data-placement="bottom" title="HTML5">
+                                      <i class="fa fa-html5 fa-2x" aria-hidden="true"></i>
+                                    </button>
+                                    <button type="button" class="btn btn-default btn-tech btn-icon" data-toggle="tooltip" data-placement="bottom" title="CSS3">
+                                      <i class="fa fa-css3 fa-2x" aria-hidden="true"></i>
+                                    </button>
+                                    <button type="button" id="btnjs" class="btn btn-default btn-tech" data-toggle="tooltip" data-placement="bottom" title="JavaScript">
+                                      <img class="js-icon" src="img/js-icon.png" alt="node-red icon">
+                                    </button>
+                                    <button type="button" id="btnauth0" class="btn btn-default btn-tech" data-toggle="tooltip" data-placement="bottom" title="Auth0">
+                                      <img class="auth0-icon" src="img/auth0-icon.png" alt="auth0 icon">
+                                    </button>
+                                </div>
+                            </div>
+                            <!--/.panel-->
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <h2 class="animated fadeInRight"><i class="fa fa-heartbeat pink" aria-hidden="true"></i> Carotid Research Project</h2>
+                        <div class="project animated fadeInLeft">
+                            <div class="well">
+                                <div class="row">
+                                    <div class="col-lg-1"></div>
+                                    <div class="thumbnail col-lg-10">
+                                        <img class="project-img" src="img/carotid.PNG" alt="Ultrasound image of a carotid segmentation">
+                                    </div>
+                                </div>
+                                <!--/.row-->
+                                <h4 class="project-description-title">Description</h4>
+                                <p class="project-description">Evolution of a software's GUI that assists manual curve tracing on combined
+                                    <a href="https://www.visualsonics.com/product/software/m-mode-imaging" target="_blank">M-Mode</a>/
+                                    <a href="https://www.visualsonics.com/product/software/b-mode-imaging" target="_blank">B-Mode</a> representation of sequences of ultrasound images of the common carotid artery. <br> Team size:
+                                    <i class="fa fa-child" aria-hidden="true"></i><i class="fa fa-child" aria-hidden="true"></i><i class="fa fa-child" aria-hidden="true"></i><i class="fa fa-child" aria-hidden="true"></i></p>
+                                <a href="" target="_blank">
+                                    <button type="button repository" class="btn btn-default btn-md" data-toggle="tooltip" data-placement="bottom" title="Not available yet">
+                                        <i class="fa fa-github " aria-hidden="true"></i> Repository
+                                    </button>
+                                </a>
+                            </div>
+                            <!--/.well-->
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h3 class="panel-title">Technologies</h3>
+                                </div>
+                                <div class="panel-body">
+                                    <button type="button" id="btnmatlab" class="btn btn-default btn-tech" data-toggle="tooltip" data-placement="bottom" title="MATLAB">
+                                    <img class="matlab-icon" src="img/matlab-icon.png" alt="matlab icon">
+                                  </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.row -->
+
+                <div class="row">
+                    <div class="col-lg-6">
+                        <h2 class="animated fadeInRight"><i class="fa fa-ship pink" aria-hidden="true"></i> Vessels TPS</h2>
+                        <div class="project animated fadeInLeft">
+                            <div class="well">
+                                <div class="row">
+                                    <div class="col-lg-1"></div>
+                                    <div class="thumbnail col-lg-10">
+                                        <img class="project-img" src="img/sea-port.jpg" alt="Sea port">
+                                    </div>
+                                </div>
+                                <!--/.row-->
+                                <h4 class="project-description-title">Description</h4>
+                                <p class="project-description">Processing System that keeps track of the different transactions that a sea port may undertake in order to provide an organized cargo loading and unloading service, using RESTful Web Services. <br> Team size:
+                                    <i class="fa fa-child" aria-hidden="true"></i><i class="fa fa-child" aria-hidden="true"></i> </p>
+                                <a href="https://bitbucket.org/sistransGrupo10/iteracion2r" target="_blank">
+                                    <button type="button repository" class="btn btn-default btn-md ">
+                                          <i class="fa fa-bitbucket" aria-hidden="true"></i> Repository
+                                    </button>
+                                </a>
+                            </div>
+                            <!--/.well-->
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h3 class="panel-title">Technologies</h3>
+                                </div>
+                                <div class="panel-body">
+                                    <button type="button" id="btnjava" class="btn btn-default btn-tech" data-toggle="tooltip" data-placement="bottom" title="Java EE">
+                                        <img class="java-icon" src="img/java-icon.png" alt="java icon">
+                                    </button>
+                                    <button type="button" id="btnsqldeveloper" class="btn btn-default btn-tech" data-toggle="tooltip" data-placement="bottom" title="Oracle SQL Developer">
+                                        <img class="sqldeveloper-icon" src="img/sqldeveloper-icon.png" alt="SQL Developer icon">
+                                    </button>
+                                    <button type="button" id="btnwildfly" class="btn btn-default btn-tech" data-toggle="tooltip" data-placement="bottom" title="WildFly">
+                                        <img class="wildfly-icon" src="img/wildfly-icon.png" alt="WildFly icon">
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <h2 class="animated fadeInLeft"><i class="fa fa-suitcase pink" aria-hidden="true"></i> Vacation Planner Web App</h2>
+                        <div class="project animated fadeInRight">
+                            <div class="well">
+                                <div class="row">
+                                    <div class="col-lg-1"></div>
+                                    <div class="thumbnail col-lg-10">
+                                        <img class="project-img" src="img/world.jpg" alt="World">
+                                    </div>
+                                </div>
+                                <!--/.row-->
+                                <h4 class="project-description-title">Description</h4>
+                                <p class="project-description">Website where users can consult and keep their vacation itinerary, including hotels, activities and flights. <br> Team size:
+                                    <i class="fa fa-child" aria-hidden="true"></i><i class="fa fa-child" aria-hidden="true"></i><i class="fa fa-child" aria-hidden="true"></i><i class="fa fa-child" aria-hidden="true"></i><i class="fa fa-child" aria-hidden="true"></i><i class="fa fa-child" aria-hidden="true"></i> </p>
+                                <a href="https://github.com/isis2603-Backup/andesoft/tree/Version-2.5" target="_blank">
+                                    <button type="button repository" class="btn btn-default btn-md ">
+                                        <i class="fa fa-github" aria-hidden="true"></i> Repository
+                                  </button>
+                                </a>
+                            </div>
+                            <!--/.well-->
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h3 class="panel-title">Technologies</h3>
+                                </div>
+                                <div class="panel-body">
+                                    <button type="button" id="btnjava" class="btn btn-default btn-tech" data-toggle="tooltip" data-placement="bottom" title="Java EE">
+                                    <img class="java-icon" src="img/java-icon.png" alt="java icon">
+                                  </button>
+                                    <button type="button" id="btnangular" class="btn btn-default btn-tech" data-toggle="tooltip" data-placement="bottom" title="AngularJS">
+                                    <img class="angular-icon" src="img/angular-icon.png" alt="AngularJS icon">
+                                  </button>
+                                    <button type="button" class="btn btn-default btn-tech btn-icon" data-toggle="tooltip" data-placement="bottom" title="HTML5">
+                                    <i class="fa fa-html5 fa-2x" aria-hidden="true"></i>
+                                  </button>
+                                    <button type="button" class="btn btn-default btn-tech btn-icon" data-toggle="tooltip" data-placement="bottom" title="CSS3">
+                                    <i class="fa fa-css3 fa-2x" aria-hidden="true"></i>
+                                  </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.row -->
+
+            </div>
+            <!-- /.container-fluid -->
+
+        </div>
+        <!-- /#page-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- JS contact -->
+    <script src="js/contact.js"></script>
+
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+
+</body>
+
+</html>
